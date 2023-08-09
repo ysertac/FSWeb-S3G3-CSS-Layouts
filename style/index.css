@@ -1,1 +1,90 @@
-/* CSS stillerinizi buraya girin */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #434dbf;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid black;
+  width: 6rem;
+  padding: 6px 0;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #000;
+}
+
+.banner p {
+  text-align: justify;
+  padding-top: 0.5rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner div {
+  margin-top: 2rem;
+  width: 100%;
+  height: 22rem;
+  background: url("https://picsum.photos/1250/750");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.main img {
+  margin-right: 0.5rem;
+}
+
+.main p {
+  width: 5rem;
+  margin: auto;
+}
+
+footer {
+  margin-top: 1rem;
+  background-color: #434dbf;
+}
+
+footer nav {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
