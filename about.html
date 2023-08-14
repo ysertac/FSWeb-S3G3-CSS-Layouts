@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Döküman</title>
-</head>
-<body>
-    <h1> Hakkında </h1>
-</body>
+    <style>
+      #containerr {
+      }
+
+      .tabs {
+        background-color: lightgreen;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 16px;
+        border: none;
+        float: left;
+      }
+
+      .tabs:hover {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hakkında</h1>
+    <div id="containerr">
+      <button class="tabs">Domains</button>
+      <button class="tabs">Home</button>
+    </div>
+    <script>
+      function createValidatedUser(user) {
+        user = new Object();
+        user.name = "alex";
+        user.email = "alex@gmail.com";
+        user.age = 20;
+        return user;
+      }
+      console.log(createValidatedUser("user"));
+    </script>
+  </body>
 </html>

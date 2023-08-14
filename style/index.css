@@ -88,3 +88,27 @@ footer nav {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner p {
+    width: 90%;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .main img {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}
